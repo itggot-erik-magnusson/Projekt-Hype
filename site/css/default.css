@@ -1,11 +1,14 @@
 body {
-  background-image: url(../img/background.jpg);
+  background-image: url(../img/background3.jpg);
   background-size: cover;
   background-attachment: fixed;
   margin: 0;
+  font-family: 'Raleway', sans-serif;
 }
 
 #content {
+  display: flex;
+  flex-direction: column;
 }
 
 #top {
@@ -15,4 +18,39 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 50pt;
+}
+
+#navbar {
+  width: 100%;
+  height: 200pt;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons {
+  width: 100pt;
+  margin: 0pt 45pt 0pt 45pt;
+  padding: 0pt 35pt 0pt 35pt;
+  color: white;
+  border: solid #ccc;
+  border-width: 1pt;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons:hover {
+  background-color: rgba(000, 0, 0, 0.3);
+  transition: 0.5s;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#footerText {
+  margin-right: 20pt;
 }
