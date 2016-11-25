@@ -17,7 +17,7 @@ body {
   text-align: center;
   background-color: rgba(000, 0, 0, 0.3);
   flex-direction: column;
-  margin-top: 50pt;
+  margin-top: 40pt;
   color: white;
   overflow: hidden;
 }
@@ -34,11 +34,20 @@ body {
 }
 
 #Topexpand {
-  cursor: pointer;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+#Topexpand #expandDown {
+  display: block;
+  cursor: pointer;
+}
+
+#Topexpand #expandUp {
+  display: none;
+  cursor: pointer;
 }
 
 #topMore {
@@ -52,10 +61,15 @@ body {
   padding: 0 200pt 0 200pt;
 }
 
+#topMore h1 {
+  font-size: 25pt;
+}
+
 #topMore img {
   width: 100pt;
   height: 130pt;
   border-radius: 60pt;
+  margin-bottom: 30pt;
 }
 
 #navbar {
