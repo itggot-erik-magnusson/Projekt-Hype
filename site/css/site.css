@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  background-color: #F5F5F5;
+  font-family: 'Raleway', sans-serif;
+}
+
+#aboutContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: rgba(000, 0, 0, 0.9);
+  width: 100%;
+  height: 50pt;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(../img/header.png);
+  background-size: cover;
+  position: fixed;
+}
+
+.header img {
+  height: 40pt;
+  width: 75pt;
+}
+
+.headerLeft {
+  margin-left: 16pt;
+}
+
+.headerRight {
+  margin-right: 16pt;
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+
+.headerRight i {
+  color: white;
+  font-size: 25pt;
+}
+
+#menu {
+  width: 200pt;
+  height: 0;
+  box-shadow: 0pt 2pt 10pt rgba(000, 0, 0, 0.2);
+  overflow: hidden;
+  position: absolute;
+  background-color: #3d3e40;
+}
+
+.menuClose {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.menuClose i {
+  padding-right: 16pt;
+  padding-top: 16pt;
+}
+
+#menu h1 {
+  font-size: 15pt;
+  padding: 16pt;
+  transition: 0.1s;
+}
+
+#menu h1:hover {
+  background-color: #555;
+  transition: 0.2s;
+}
+
+a, a:link, a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+#article1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #555;
+  text-align: center;
+  padding-top: 64pt;
+}
+
+hr {
+  width: 600pt;
+}
+
+#article1 p {
+  padding: 0 230pt 0 230pt;
+}
+
+#exampleImages {
+  display: flex;
+  justify-content: space-around;
+}
+
+#exampleImages img {
+  width: 300pt;
+  height: 200pt;
+  margin: 36pt;
+}
+
+#article2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #555;
+  text-align: center;
+  padding-top: 36pt;
+}
+
+#article2 p {
+  padding: 0 16pt 0 16pt;
+}
+
+#leftColumn {
+  margin-left: 200pt;
+}
+
+#rightColumn {
+  margin-right: 200pt;
+}
+
+#article2content {
+  display: flex;
+  align-items: center;
+}
+
+#article3 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #555;
+  text-align: center;
+  padding-top: 36pt;
+}
+
+#article3 p {
+  padding: 0 16pt 0 16pt;
+}
+
+#leftColumn2 {
+  margin-left: 200pt;
+}
+
+#rightColumn2 {
+  margin-right: 200pt;
+}
+
+#article3content {
+  display: flex;
+  align-items: center;
+}
+
+#founders {
+  padding: 0 230pt 36pt 230pt;
+  color: #555;
+  text-align: center;
+}

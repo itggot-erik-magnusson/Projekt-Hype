@@ -107,3 +107,8 @@ footer {
 #footerText {
   margin-right: 20pt;
 }
+
+a, a:visited, a:link{
+  text-decoration: none;
+
+}
