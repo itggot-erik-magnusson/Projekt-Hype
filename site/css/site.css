@@ -2,6 +2,9 @@ body {
   margin: 0;
   background-color: #F5F5F5;
   font-family: 'Raleway', sans-serif;
+  background-image: url(../img/pattern2.png);
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 #aboutContent {
@@ -166,4 +169,88 @@ hr {
   padding: 0 230pt 36pt 230pt;
   color: #555;
   text-align: center;
+}
+
+/* BUY */
+
+#buyNow {
+  width: 100%;
+  height: 600pt;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#buyNowImg {
+  width: 600pt;
+  height: 400pt;
+  background-image: url(../img/buynow.jpg);
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+#buyBtn {
+  height: 48pt;
+  background-color: #212121;
+  box-shadow: 0pt 6pt 10pt rgba(000, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10pt;
+  transition: 0.2s;
+}
+
+#buyBtn h1 {
+  font-size: 18pt;
+  color: #ff0;
+  padding: 0pt 32pt 0pt 32pt;
+}
+
+#buyBtn:hover {
+  transform: scale(1.04);
+  transition: 0.3s;
+}
+
+#buyContent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#buyContent hr {
+  width: 420pt;
+}
+
+#buyContent h1, #buyContent p {
+  color: #212121;
+}
+
+#articlebuy1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400pt;
+  text-align: center;
+  margin-bottom: 30pt;
+}
+
+#articlebuy1 div, #articlebuy2 div {
+  display: flex;
+  align-items: center;
+}
+
+#buyContent i {
+  margin-left: 10pt;
+}
+
+#articlebuy2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400pt;
+  text-align: center;
+  margin-bottom: 30pt;
 }
