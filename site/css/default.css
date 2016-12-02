@@ -99,6 +99,7 @@ body {
 }
 
 footer {
+  margin-top: 40pt;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -110,5 +111,4 @@ footer {
 
 a, a:visited, a:link{
   text-decoration: none;
-
 }

@@ -7,6 +7,21 @@ body {
   background-attachment: fixed;
 }
 
+footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#footerText {
+  color: #aaa;
+  margin-right: 20pt;
+}
+
+a, a:visited, a:link{
+  text-decoration: none;
+}
+
 #aboutContent {
   display: flex;
   flex-direction: column;
@@ -138,7 +153,7 @@ hr {
   align-items: center;
 }
 
-#article3 {
+.article3 {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -148,24 +163,24 @@ hr {
   padding-top: 36pt;
 }
 
-#article3 p {
+.article3 p {
   padding: 0 16pt 0 16pt;
 }
 
-#leftColumn2 {
+.leftColumn2 {
   margin-left: 200pt;
 }
 
-#rightColumn2 {
+.rightColumn2 {
   margin-right: 200pt;
 }
 
-#article3content {
+.article3content {
   display: flex;
   align-items: center;
 }
 
-#founders {
+.founders {
   padding: 0 230pt 36pt 230pt;
   color: #555;
   text-align: center;
@@ -253,4 +268,30 @@ hr {
   width: 400pt;
   text-align: center;
   margin-bottom: 30pt;
+}
+
+/* CONTACT */
+
+  #contactContent img {
+    margin-top: 30pt;
+  }
+
+.foundersContact {
+  padding: 0 230pt 36pt 230pt;
+  color: #555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.foundersContact div {
+  display: flex;
+  align-items: center;
+  margin: 8pt;
+  width: 120pt;
+}
+
+.foundersContact i {
+  margin-right: 10pt;
 }
