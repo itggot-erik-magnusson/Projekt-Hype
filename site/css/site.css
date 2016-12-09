@@ -1,8 +1,8 @@
 body {
   margin: 0;
-  background-color: #F5F5F5;
+  background-color: #F3F3F3;
   font-family: 'Raleway', sans-serif;
-  background-image: url(../img/pattern2.png);
+  background-image: url(../img/pattern3.png);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -274,6 +274,7 @@ hr {
 
   #contactContent img {
     margin-top: 30pt;
+    border-radius: 3%;
   }
 
 .foundersContact {
